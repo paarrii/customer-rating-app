@@ -6,13 +6,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'account',
-    // children: [
-    //   {
-    //     path: 'account',
-    //     loadChildren: () => import('./account/account.module').then(mod => mod.AccountModule);
-    //   }
-    // ]
+    redirectTo: 'account',    
   },
   {
     path: 'account',
