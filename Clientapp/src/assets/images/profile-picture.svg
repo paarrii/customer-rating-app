@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54" height="54" viewBox="0 0 54 54">
+    <defs>
+        <circle id="b" cx="24" cy="24" r="24"/>
+        <filter id="a" width="120.8%" height="120.8%" x="-10.4%" y="-8.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feMorphology in="SourceAlpha" radius=".5" result="shadowSpreadOuter2"/>
+            <feOffset dy="2" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+            <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter3"/>
+            <feGaussianBlur in="shadowOffsetOuter3" result="shadowBlurOuter3" stdDeviation=".5"/>
+            <feColorMatrix in="shadowBlurOuter3" result="shadowMatrixOuter3" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="shadowMatrixOuter2"/>
+                <feMergeNode in="shadowMatrixOuter3"/>
+            </feMerge>
+        </filter>
+        <path id="c" d="M24.5 6.292a7.365 7.365 0 0 1 7.375 7.375 7.365 7.365 0 0 1-7.375 7.375 7.365 7.365 0 0 1-7.375-7.375A7.365 7.365 0 0 1 24.5 6.292zm0 34.908c-6.146 0-11.579-3.147-14.75-7.916.074-4.892 9.833-7.572 14.75-7.572 4.892 0 14.676 2.68 14.75 7.572-3.171 4.77-8.604 7.916-14.75 7.916z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(3 2)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FAFAFA" xlink:href="#b"/>
+        <circle cx="24" cy="24" r="24" fill="#FFF"/>
+        <g>
+            <circle cx="24" cy="24" r="24" fill="#FFF"/>
+            <use fill="#1F2D3D" xlink:href="#c"/>
+        </g>
+    </g>
+</svg>
