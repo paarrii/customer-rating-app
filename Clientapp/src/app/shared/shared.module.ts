@@ -18,7 +18,8 @@ import { DemoMaterialModule } from './../demo-material-module';
         DemoMaterialModule
     ],
     exports: [
-        FlexLayoutModule
+        FlexLayoutModule,
+        DemoMaterialModule
     ],
     providers: [],
 })
