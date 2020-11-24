@@ -1,0 +1,18 @@
+@import 'assets/styles/material/style.scss';
+@import 'assets/styles/material/icons/themify-icons/themify-icons.css';
+@import 'assets/styles/material/icons/font-awesome/css/font-awesome.css';
+@import 'assets/styles/material/spinner';
+@import 'assets/styles/material/app';
+@import 'assets/styles/material/header';
+@import 'assets/styles/material/widgets';
+@import 'assets/styles/material/pages';
+@import 'assets/styles/material/sidebar';
+@import 'assets/styles/material/dark-sidebar';
+@import 'assets/styles/material/responsive';
+@import 'assets/styles/material/rtl';
+//  @import 'assets/styles/shared.scss';
+
+
+
+$custom-typography: mat-typography-config($font-family: $bodyfont);
+@include mat-core($custom-typography);

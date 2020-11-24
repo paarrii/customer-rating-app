@@ -1,15 +1,109 @@
-.text-center {
-    text-align: center;
-}
+// // // //-----------variable css---------
+// $mat-primary: (
+//   50: lighten(#003fb9, 50%),
+//   100: lighten(#003fb9, 40%),
+//   200: lighten(#003fb9, 30%),
+//   300: lighten(#003fb9, 20%),
+//   400: lighten(#003fb9, 10%),
+//   500: #003fb9,
+//   600: darken(#003fb9, 10%),
+//   700: darken(#003fb9, 20%),
+//   800: darken(#003fb9, 30%),
+//   900: darken(#003fb9, 40%),
+//   A100: #003fb9,
+//   A200: #003fb9,
+//   A400: #003fb9,
+//   A700: #003fb9,
+//   contrast: (
+//     50: #ffffff,
+//     100: #ffffff,
+//     200: #ffffff,
+//     300: #ffffff,
+//     400: #ffffff,
+//     500: #ffffff,
+//     600: #ffffff,
+//     700: #ffffff,
+//     800: #ffffff,
+//     900: #ffffff,
+//     A100: #ffffff,
+//     A200: #ffffff,
+//     A400: #ffffff,
+//     A700: #ffffff
+//   )
+// );
 
-.text-end {
-    text-align: end;
-}
+// $mat-accent: (
+//   50: lighten(#44b900, 50%),
+//   100: lighten(#44b900, 40%),
+//   200: lighten(#44b900, 30%),
+//   300: lighten(#44b900, 20%),
+//   400: lighten(#44b900, 10%),
+//   500: #44b900,
+//   600: darken(#44b900, 10%),
+//   700: darken(#44b900, 20%),
+//   800: darken(#44b900, 30%),
+//   900: darken(#44b900, 40%),
+//   A100: #44b900,
+//   A200: #44b900,
+//   A400: #44b900,
+//   A700: #44b900,
+//   contrast: (
+//     50: #ffffff,
+//     100: #ffffff,
+//     200: #ffffff,
+//     300: #ffffff,
+//     400: #ffffff,
+//     500: #ffffff,
+//     600: #ffffff,
+//     700: #ffffff,
+//     800: #ffffff,
+//     900: #ffffff,
+//     A100: #ffffff,
+//     A200: #ffffff,
+//     A400: #ffffff,
+//     A700: #ffffff
+//   )
+// );
 
-.text-right {
-    text-align: right;
-}
+// $mat-pink: (
+//   50: lighten(#bb1155, 50%),
+//   100: lighten(#bb1155, 40%),
+//   200: lighten(#bb1155, 30%),
+//   300: lighten(#bb1155, 20%),
+//   400: lighten(#bb1155, 10%),
+//   500: #bb1155,
+//   600: darken(#bb1155, 10%),
+//   700: darken(#bb1155, 20%),
+//   800: darken(#bb1155, 30%),
+//   900: darken(#bb1155, 40%),
+//   A100: #bb1155,
+//   A200: #bb1155,
+//   A400: #bb1155,
+//   A700: #bb1155,
+//   contrast: (
+//     50: #ffffff,
+//     100: #ffffff,
+//     200: #ffffff,
+//     300: #ffffff,
+//     400: #ffffff,
+//     500: #ffffff,
+//     600: #ffffff,
+//     700: #ffffff,
+//     800: #ffffff,
+//     900: #ffffff,
+//     A100: #ffffff,
+//     A200: #ffffff,
+//     A400: #ffffff,
+//     A700: #ffffff
+//   )
+// );
 
-.text-left {
-    text-align: left;
-}
+// $my-app-primary: mat-palette($mat-primary);
+// $my-app-accent: mat-palette($mat-accent);
+// $my-app-warn: mat-palette($mat-pink, 500);
+// $my-app-theme: mat-light-theme($my-app-primary, $my-app-accent, $my-app-warn);
+
+// @include angular-material-theme($my-app-theme);
+
+// $bodyfont: "Roboto", Arial, Helvetica;
+// $headingfont: "Roboto", Arial, Helvetica;
