@@ -1,49 +1,18 @@
-@import 'assets/styles/variable';
- @import 'assets/styles/shared.scss';
+@import 'assets/styles/material/style.scss';
+@import 'assets/styles/material/icons/themify-icons/themify-icons.css';
+@import 'assets/styles/material/icons/font-awesome/css/font-awesome.css';
+@import 'assets/styles/material/spinner';
+@import 'assets/styles/material/app';
+@import 'assets/styles/material/header';
+@import 'assets/styles/material/widgets';
+@import 'assets/styles/material/pages';
+@import 'assets/styles/material/sidebar';
+@import 'assets/styles/material/dark-sidebar';
+@import 'assets/styles/material/responsive';
+@import 'assets/styles/material/rtl';
+//  @import 'assets/styles/shared.scss';
 
- @import 'assets/styles/icons/themify-icons/themify-icons.css';
- @import 'assets/styles/icons/font-awesome/css/font-awesome.css';
- @import 'assets/styles/spinner';
- @import 'assets/styles/app';
- @import 'assets/styles/header';
- @import 'assets/styles/widgets';
- @import 'assets/styles/pages';
- @import 'assets/styles/sidebar';
- @import 'assets/styles/dark-sidebar';
- @import 'assets/styles/responsive';
- @import 'assets/styles/rtl';
- 
- 
- // Red Theme
- 
- .danger {  
-     @import 'assets/styles/colors/red';
-     @include angular-material-theme($red-app-theme);
- }
- 
- // Blue Theme
- 
- .blue { 
-     @import 'assets/styles/colors/blue'; 
-       @include angular-material-theme($blue-app-theme);
- }
- 
- // Green Theme
- 
- .green {  
-     @import 'assets/styles/colors/green';
-       @include angular-material-theme($green-app-theme);
- }
- 
- // Dark Theme
- 
- .dark { 
-     @import 'assets/styles/colors/dark'; 
-       @include angular-material-theme($dark-theme); 
- }
-   
- 
- $custom-typography: mat-typography-config( 
-   $font-family: $bodyfont
- ); 
- @include mat-core($custom-typography);
+
+
+$custom-typography: mat-typography-config($font-family: $bodyfont);
+@include mat-core($custom-typography);
