@@ -1,3 +1,10 @@
-.dash-home-comp{
-    background: rgb(207, 207, 207);
+.dash-home-comp {
+    background: white;
+    height: 100%;
+
+    .mat-card-dash {
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        min-height: 200px;
+    }
 }
